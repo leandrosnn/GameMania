@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 60px;
+    background-color: #ffffff;
+}
+
+
+.menu {
+    width: 100%;
+    display: flex;
+    justify-content: right;   
+}
+
+.nav-item i {
+font-size: 20px;
+}
+
+.busca{
+
+    background: url(../img/pesquisar1.png) no-repeat center right;
+    padding: 13px;
+    border: none;
+    width: 110px;
+    -wibkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+    cursor: pointer;
+}
+
+.busca:focus{
+    width: 700px;
+    border-bottom: solid 1px #ddd;
+    outline: none;
+    
+}
+
+.container-grid-jogosM{
+    width: 1190px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 50px;
+    cursor: pointer;
+    
+}
+
+main h5{
+    font-family: 'roboto';
+    font-size: 140%;
+    padding: 10px;  
+}
+
+.container-grid-jogosM img:hover {
+    box-shadow: 0 0 20px 1px rgba(24, 25, 26, 0.5);
+    border-radius: 15px;
+}
+
+.mais-jogos{
+    width: 1150px;
+    font-weight: 600;
+    margin: 0 auto;
+    font-size: 120%;
+    padding: 20px;
+    
+}
+
+.container-grid-jogosP{
+    width: 1190px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+    
+}
+
+.container-grid-jogosP img:hover {
+    box-shadow: 0 0 20px 1px rgba(24, 25, 26, 0.5);
+    border-radius: 30px;
+}
+
+.footer{
+    
+    display: flex;
+    justify-content: center;
+    font-size: 70%;
+}
+
+.b-example-divider {
+    margin-top: 100px;
+}
+
+
+.BannerRodape{
+    display: flex;
+    justify-content: center;
+
+    text-align: center;
+    margin-top: 80px;
+    
+    
+    
+}
+
+
+@media screen and (max-width: 700px) { 
+    .container-grid-jogosM img {
+
+        width: 70%;
+
+    }
+    .container-grid-jogosP img {
+
+        width: 40%;
+
+    }
+    .BannerRodape img {
+
+        width: 100%;
+
+    }
+
+}
+
+
